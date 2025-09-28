@@ -11,6 +11,9 @@ spring:
     serialization:
       INDENT_OUTPUT: true
 
+default:
+  name: Testing
+
 eureka:
   client:
     service-url:
