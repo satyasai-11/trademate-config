@@ -2,6 +2,8 @@ server:
   port: 8001
 
 spring:
+  application:
+    name: distributor-service   
   datasource:
     url: jdbc:mysql://localhost:3306/trademate?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
     username: root
